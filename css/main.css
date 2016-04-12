@@ -1,0 +1,208 @@
+*,
+    *:before,
+    *:after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+body {
+  /*background: url("http://files.sitebuilder.tsohost.com/paragon505/image/wave11.jpg");*/
+  /*background-repeat: no-repeat;*/
+  overflow-x: hidden;
+  height: 100%;
+  overflow-y:scroll;
+  background-color: #175989;
+
+
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+/*img {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width: 320px;
+  height: 240px;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+  box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+}
+img:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
+}*/
+
+.home {
+  perspective: 1px;
+  transform-style: perspective-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.slide:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: 50% 50% / cover;
+}
+
+.slide {
+  position: relative;
+  margin: 0 auto;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  transform-style: inherit;
+  background: 50% 50% / cover;
+}
+.mslide {
+  position: relative;
+  margin: 0 auto;
+  padding: 25vh 10%;
+  min-height: 100vh;
+  width: 100vw;
+  transform-style: inherit;
+  background: 50% 50% / cover;
+}
+
+
+
+/*.title {
+  margin-top: 60vh;
+  height: 100px;
+  padding: 5%;
+  border-radius: 5px;
+  background: rgba(240,230,220, .7);
+    transform: translateZ(-1px) scale(1);*/
+  /*box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+  /*background-image: url("http://www.newhealthadvisor.com/images/1HT00757/a%20gallon%20of%20water%20a%20day.jpg")*/
+  /*background-attachment: fixed;*/
+/*  z-index: -1;
+  float:right;
+}*/
+
+#slide1:before {
+  /*background-color: white;*/
+  background-image: url("../img/oyster.jpg");
+  /*background-image: url("http://www.newhealthadvisor.com/images/1HT00757/a%20gallon%20of%20water%20a%20day.jpg");*/
+  /*transform: translateZ(-1px) scale(1);*/
+  background-attachment: fixed;
+  /*background-size: contain;*/
+ background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+  
+}
+
+#slide2 {
+    background-image: url("../img/backbuts.png");
+  background-attachment: fixed;
+  /*background-size: contain;*/
+  background-size: contain;
+ background-position: center;
+  background-repeat: no-repeat;
+   z-index: -1;
+  
+  /*transform: translateZ(-1px) scale(1);*/
+}
+
+#slide3:before {
+   background-image: url("../img/lostandFoind.jpg");
+
+   background-attachment: fixed;
+/*  background-size: contain;
+ background-position: center;*/
+  background-repeat: no-repeat;
+   z-index: -1;
+
+}
+
+#slide4 {
+ 
+  background-image: url("../img/instagram.png");
+
+   background-attachment: fixed;
+ background-size: contain;
+ background-position: center;
+  background-repeat: no-repeat;
+   z-index: -1;
+}
+#slide5:before{
+ 
+  background-image: url("../img/yonce.png");
+
+ background-attachment: fixed;
+ background-size: contain;
+ background-position: center;
+  background-repeat: no-repeat;
+z-index: -1;
+}
+
+.slide h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 48px;
+  margin-top: -170px;
+  /*line-height: 600px;*/
+  /*font-weight: 700;*/
+  text-align: center;
+  width:100%;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /*background-color: black;*/
+
+}
+.mslide h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 98px;
+  margin-top: -170px;
+  /*line-height: 600px;*/
+  /*font-weight: 700;*/
+  text-align: center;
+  width:100%;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  /*background-color: black;*/
+
+}
+
+    h2 {
+      color: black;
+      background: rgba(255,255,255,0.5);
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 8px rgba(0, 0, 0, .7);
+      border-radius: 10px;
+    }
+    
+
+/*.slide p {
+  transform: translateZ(0.2px) scale(0.8);
+  width: 25%;
+  float: left;
+}
+p {
+  font-size: 28px;
+  color: white;
+  font-family: "Belleza", sans-serif;
+  line-height: 40px;
+  padding: 20px;
+  width: 500px;
+  left: 38%;
+  bottom: 60%;
+  background: rgba(0, 10, 10, 0.4);
+  transform: translateZ(100px) scale(0.6);
+  position: absolute;
+  z-index: 999;
+}*/
+
+
